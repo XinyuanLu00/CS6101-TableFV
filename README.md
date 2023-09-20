@@ -14,3 +14,5 @@ Each seed dataset is stored as json files in folder "processed_seed_dataset", ea
 "answer": the answer for each question
 "context": the input of hybridqa, tatqa, finqa also contains context paragraph.
 ```
+
+For hybridqa training set,tabfact training set,wikitablequestion training set, please download from the Google Drive [Link](https://drive.google.com/drive/folders/1IH6dep2eQvz9Lw_Iz9XnqcCuX69EhB_R?usp=sharing).
