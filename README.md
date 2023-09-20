@@ -1,4 +1,4 @@
-# CS6101-TableFV-LLAMA
+# CS6101-TableFV
 This is the code base for CS6101 Project: Evaluating Open-Sourced LLM for Table Fact-Checking and Reasoning
 
 ## Dataset
