@@ -1,0 +1,14 @@
+python my_lora_trainer.py \
+    --model_name meta-llama/Llama-2-7b-hf \
+    --dataset_path MYDIR/llama_finetune/peft_lora/data/fetaqa_text \
+    --seq_length 1024 \
+    --cache_dir MYDIR/.MODEL_CACHE \
+    --load_in_8bit \
+    --output_dir ./fetaqa_output \
+    --log_with wandb \
+    --wandb_project llama \
+    --use_peft \
+    --batch_size 24 \
+    --gradient_accumulation_steps 2 \
+    --num_train_epochs 10 \
+    --learning_rate 5e-5 \

@@ -16,3 +16,12 @@ Each seed dataset is stored as json files in folder "processed_seed_dataset", ea
 ```
 
 For hybridqa training set,tabfact training set,wikitablequestion training set, please download from the Google Drive [Link](https://drive.google.com/drive/folders/1IH6dep2eQvz9Lw_Iz9XnqcCuX69EhB_R?usp=sharing).
+
+## LLAMA2-Finetune
+```bash
+In `llama_finetune` folder, it contains
+    --lora_inference.py 
+    --my_lora_trainer.py 
+    --train.sh
+In train.sh, please replace MYDIR with your own path
+```
