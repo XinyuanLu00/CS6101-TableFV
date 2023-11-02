@@ -42,7 +42,7 @@ def format_prompt_with_answer(data, index=None):
     return f"{prompt}\n{answer}"
 
 def format_answer(data, index=None):
-    f"The answer is {get_field(data, 'answer', index)}"
+    return f"The answer is {get_field(data, 'answer', index)}"
 
 def filter_empty_sentences(rows):
     return [r for r in rows if r != '.']
