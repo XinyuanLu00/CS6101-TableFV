@@ -48,12 +48,15 @@ def filter_empty_sentences(rows):
     return [r for r in rows if r != '.']
 
 def format_context(data, index=None):
+    context = get_field(data, 'context', index) if 'context' in data else None
     pre = filter_empty_sentences(get_field(data, 'pre_text', index)) if 'pre_text' in data else []
     post = filter_empty_sentences(get_field(data, 'post_text', index)) if 'post_text' in data else []
     total_len = len(pre)+len(post)
-    if total_len == 0:
+    if total_len == 0 and context is None:
         return []
     lines = [ '\nContext: ']
+    if context is not None:
+        lines.append(context)
     if len(pre) > 0:
         lines.append('.'.join(pre))
     if len(post) > 0:
