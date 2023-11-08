@@ -54,7 +54,7 @@ def format_context(data, index=None):
     total_len = len(pre)+len(post)
     if total_len == 0 and context is None:
         return []
-    lines = [ '\nContext: ']
+    lines = [ '\nContext:']
     if context is not None:
         lines.append(context)
     if len(pre) > 0:
