@@ -1,7 +1,7 @@
 # CS6101-TableFV
 This is the code base for CS6101 Project: Evaluating Open-Sourced LLM for Table Fact-Checking and Reasoning
 
-![alt text](https://github.com/XinyuanLu00/CS6101-TableFV/blob/main/poster.png?raw=true)
+![alt text](https://github.com/XinyuanLu00/CS6101-TableFV/blob/main/Poster.png?raw=true)
 
 ## Dataset
 
