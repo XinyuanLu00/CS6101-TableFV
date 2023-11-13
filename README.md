@@ -1,6 +1,8 @@
 # CS6101-TableFV
 This is the code base for CS6101 Project: Evaluating Open-Sourced LLM for Table Fact-Checking and Reasoning
 
+![alt text](https://github.com/XinyuanLu00/CS6101-TableFV/blob/main/poster.png?raw=true)
+
 ## Dataset
 
 Each seed dataset is stored as json files in folder "processed_seed_dataset", each entry has the following format:
